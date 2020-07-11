@@ -4,6 +4,7 @@ import FilmItem from './FilmItem'
 import { getFilmsFromApiWithSearchedText } from '../API/TMDBApi'
 
 class Search extends React.Component {
+  total_pages;
 
   constructor(props) {
     super(props)
